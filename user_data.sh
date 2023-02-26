@@ -9,7 +9,7 @@ systemctl start nginx
 systemctl enable nginx
 
 # enable firewall
-ufw allow 22
+ufw allow 222
 ufw enable
 ufw allow 'Nginx HTTP'
 ufw allow 'Nginx HTTPS'
